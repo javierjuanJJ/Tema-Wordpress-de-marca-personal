@@ -15,7 +15,7 @@ $menuitems = wp_get_nav_menu_items( $menu_name ); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="/wp-content/themes/version1/style2.css">
+<link rel="stylesheet" href="<?php echo get_theme_file_uri( 'style2.css' ) ?>">
 <?php wp_head(); ?>
 <body class="fondo">
 
