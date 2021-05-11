@@ -20,11 +20,9 @@
 <?php
 if ( is_home() ) :
 ?>
-<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>><?php
-	else : ?>
-    <div id="post-<?php the_ID(); ?>" <?php post_class2(); ?>><?php
-		endif;
-		?>
+<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<?php else : ?>
+    <div id="post-<?php the_ID(); ?>" <?php post_class2(); ?>> <?php endif; ?>
 
 
         <div class="card">
