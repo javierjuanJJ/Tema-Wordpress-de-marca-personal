@@ -340,3 +340,19 @@ ul.main-nav li a:hover .name span {
     width: 100%;
     height: 100%;
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+
+.nextButton {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}

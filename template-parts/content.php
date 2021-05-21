@@ -64,12 +64,12 @@ if ( is_home() ) :
 						)
 					);
 
-					wp_link_pages(
+					/*wp_link_pages(
 						array(
 							'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ow_underscores' ),
 							'after'  => '</div>',
 						)
-					);
+					);*/
 					ow_underscores_entry_footer();
 					?>
                 </div><!-- .entry-content -->
